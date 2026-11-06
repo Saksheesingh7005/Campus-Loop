@@ -1,0 +1,24 @@
+{
+  "name": "campus-resource-sharing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Resource Sharing - Functional College Web Application Prototype",
+  "scripts": {
+    "start": "node start-all.js",
+    "dev": "node start-all.js",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "campus",
+    "resource-sharing",
+    "college",
+    "prototype",
+    "react",
+    "express"
+  ],
+  "author": "Campus Resource Sharing Team",
+  "license": "MIT"
+}
